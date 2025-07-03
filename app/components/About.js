@@ -16,7 +16,7 @@ function About() {
           </div>
           {/* Right details */}
           <div className="flex flex-col gap-5">
-            <p className="text-[16px] md:max-w-2xl text-start leading-8">
+            <p className="text-[17px] md:max-w-2xl text-start text-gray-500 leading-8">
               I am an experienced Frontend Developer with over a decade of
               professional expertise in the field. Throughout my career, I have
               had the privilege of collaborating with prestigious organizations,
