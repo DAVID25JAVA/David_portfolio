@@ -26,22 +26,22 @@ function About() {
             {/* main div */}
             <div className="flex flex-col md:flex-row justify-center md:justify-start md:items-start items-center gap-5">
               <div className="flex items-start gap-5">
-                <div className="w-44 h-36 p-3 border rounded border-gray-400">
+                <div className="md:w-44 md:h-40 p-3 border rounded border-gray-400">
                   <img
                     className="w-6 h-6"
                     src={assets?.code_icon?.src}
                     alt="icon"
                   />
                   <p className="text-lg text-start mt-3 font-semibold">
-                    Languages
+                    Skills
                   </p>
-                  <p className="text-sm text-start mt-2">
-                    HTML, CSS, JavaScript React Js, Next Js
+                  <p className="text-sm font-bold text-start mt-2">
+                     React.js | Next.js | JavaScript | Node.js | Express | MongoDB
                   </p>
                 </div>
               </div>
               <div className="flex items-start gap-5">
-                <div className="w-44 h-36 p-3 border rounded border-gray-400">
+                <div className="md:w-44 md:h-40 p-3 border rounded border-gray-400">
                   <img
                     className="w-6 h-6"
                     src={assets?.edu_icon?.src}
@@ -56,7 +56,7 @@ function About() {
                 </div>
               </div>
               <div className="flex items-start gap-5">
-                <div className="w-44 h-36 p-3 border rounded border-gray-400">
+                <div className="md:w-44 md:h-40 p-3 border rounded border-gray-400">
                   <img
                     className="w-6 h-6"
                     src={assets?.project_icon?.src}
