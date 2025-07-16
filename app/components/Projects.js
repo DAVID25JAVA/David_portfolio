@@ -4,11 +4,11 @@ import { assets, workData } from "@/assets/assets";
 function Projects() {
   return (
     <div className="md:max-w-6xl mx-auto w-full px-4 py-10">
-      <p className="text-black text-lg text-center">My Portfolio</p>
-      <p className="text-black text-2xl md:text-3xl text-center pt-2">
+      <p className=" text-lg text-center">My Portfolio</p>
+      <p className=" text-2xl md:text-3xl text-center pt-2">
         My Projects
       </p>
-      <p className="text-black md:max-w-xl w-full mx-auto text-center pt-3">
+      <p className=" md:max-w-xl w-full mx-auto text-center pt-3">
         Welcome to my web development portfolio! Explore a collection of
         projects showcasing my expertise in front-end development.
       </p>
@@ -26,7 +26,7 @@ function Projects() {
             />
             <div className="absolute bottom-2 bg-white rounded-lg left-4 w-56 h-16 px-2 pt-2">
               <div className="flex items-center justify-between gap-2">
-                <p className="text-black text-lg font-semibold">
+                <p className=" text-lg font-semibold">
                   {project?.title}
                 </p>
                 <div className="w-8 h-8 flex items-center justify-center border rounded-full">
@@ -37,7 +37,7 @@ function Projects() {
                   />
                 </div>
               </div>
-              <p className="text-black text-sm ">{project?.description}</p>
+              <p className=" text-sm ">{project?.description}</p>
             </div>
           </div>
         ))}

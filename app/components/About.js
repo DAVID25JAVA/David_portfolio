@@ -11,12 +11,12 @@ function About() {
         {/* user Intro code */}
         <div className="flex flex-col md:flex-row justify-center gap-10 mt-10 ">
           {/* left img */}
-          <div className="md:w-96 flex justify-center items -center">
+          <div className="md:w-96 flex justify-center  ">
             <img src={assets?.user_image?.src} />
           </div>
           {/* Right details */}
           <div className="flex flex-col gap-">
-            <p className="text-[17px] md:max-w-2xl text-start text-black leading-8">
+            <p className="text-[17px] md:max-w-2xl text-start  leading-8">
               I am an experienced Frontend Developer with over a decade of
               professional expertise in the field. Throughout my career, I have
               had the privilege of collaborating with prestigious organizations,

@@ -32,16 +32,16 @@ function Navbar() {
           <div className="bg-white hidden md:block shadow-sm px-10 py-2 rounded-full">
             <ul className="flex items-center gap-8 text-lg">
               <li className="cursor-pointer">
-                <a href="#Home">Home</a>
+                <a href="/">Home</a>
               </li>
               <li className="cursor-pointer">
-                <a href="#About">About</a>
+                <a href="about">About</a>
               </li>
               <li className="cursor-pointer">
-                <a href="#Projects">Projects</a>
+                <a href="projects">Projects</a>
               </li>
               <li className="cursor-pointer">
-                <a href="#Testimonials">Testimonials</a>
+                <a href="testimonials">Testimonials</a>
               </li>
             </ul>
           </div>

@@ -40,8 +40,8 @@ function GetInTouch() {
   return (
     <div className="md:max-w-6xl w-full mx-auto px-4 mt-10">
       <form onSubmit={onSubmit} className="flex flex-col items-center text-sm">
-        <p className="text-lg text-black pb-2">Contact Us</p>
-        <h1 className="text-4xl text-black pb-4">Get in touch with us</h1>
+        <p className="text-lg  pb-2">Contact Us</p>
+        <h1 className="text-4xl  pb-4">Get in touch with us</h1>
         <p className="text-base md:max-w-lg text-gray-500 text-center pb-10">
           I'd love to hear from you! If you have any questions, comments or
           feedback, please use the form below.
@@ -49,7 +49,7 @@ function GetInTouch() {
 
         <div className="flex flex-col md:flex-row items-center gap-8 w-[350px] md:w-[700px]">
           <div className="w-full">
-            <label htmlFor="name" className="text-black/70 text-base">
+            <label htmlFor="name" className="/70 text-base">
               Your Name
             </label>
             <input
@@ -60,7 +60,7 @@ function GetInTouch() {
             />
           </div>
           <div className="w-full">
-            <label htmlFor="email" className="text-black/70 text-base">
+            <label htmlFor="email" className="/70 text-base">
               Your Email
             </label>
             <input
@@ -73,7 +73,7 @@ function GetInTouch() {
         </div>
 
         <div className="mt-6 w-[350px] md:w-[700px]">
-          <label htmlFor="message" className="text-black/70 text-base">
+          <label htmlFor="message" className="/70 text-base">
             Message
           </label>
           <textarea
