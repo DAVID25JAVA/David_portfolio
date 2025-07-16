@@ -8,7 +8,7 @@ function Footer() {
         <div class="flex flex-col md:flex-row items-start justify-center gap-10 py-10 border-b border-gray-500/30">
           <div class=" ">
             <img
-              class="md:h-16 "
+              className="md:h-16 "
               src={assets?.logo_light?.src}
               alt="dummyLogoDark"
             />
